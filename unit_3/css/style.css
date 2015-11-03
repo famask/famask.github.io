@@ -1,0 +1,41 @@
+body {
+    /*background-image: url("../images/hi_rez_hero_image.jpg");*/
+	/*background-size: 100%, 100%;
+    background-repeat: no-repeat;*/
+    background-color: #e7e1e3;
+    font-family: Arial;
+    font-size: 22;
+    text-align: left;
+}
+
+h1 {
+	font-size: 60px;
+	color: #a60e59;
+}
+
+p img {
+	text-align: center;
+}
+
+#slogan {
+	font-size: 30;
+	font-style: italic;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #a60e59;
+}
+
+#uppercase {
+	text-transform: uppercase;
+}
+
+.caps {
+	text-transform: capitalize;
+}
