@@ -1,0 +1,441 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+@import url(https://fonts.googleapis.com/css?family=Archivo+Narrow);
+@import url(https://fonts.googleapis.com/css?family=Bitter);
+
+body {
+	font-size: 16px;
+	line-height: 1.5em;
+	/*letter-spacing: .1em;*/
+	font-family: 'Bitter', serif;
+}
+
+#wrapper {
+	width: 90%;
+	/*background: yellow;*/
+	border: 1px solid black;
+	font-size: 1em;
+	margin: 1em auto;
+}
+
+header {
+	/*border: 1px solid blue;*/
+	/*margin: 0 .5em 0 0;*/
+	background-color: #f2f2f3;
+}
+
+header div {
+	width: 33%;
+	float: left;
+	/*border: 1px dashed green;*/
+	font-size: .7em; /*need to decide if I want to switch to percentage*/
+	/*padding-top: 3em;*/
+	text-align: center;
+	font-family: 'Archivo Narrow', sans-serif;
+}
+
+.header_align {
+	/*margin: 3em auto;*/
+	text-align: center;
+	padding-top: 2em;
+	font-size: .7em;
+}
+
+
+.header_align a {
+	padding: 0 .7em;
+}
+
+input {
+	margin-left: 1em;
+}
+
+/*.header_align_bottom {
+	width: 33%;
+	float: left;
+	border: 1px dashed green;
+	text-align: bottom;
+}*/
+
+
+#logo_image {
+	max-width: 50%;
+	margin: 1em auto;
+}
+
+#cart_image {
+	max-width: 7%;
+	padding: 0 .3em;
+}
+
+nav {
+	text-align: center;
+	margin: .7em 0;
+	font-family: 'Archivo Narrow', sans-serif;
+}
+
+
+
+nav img {
+	height: .8em;
+	margin: 0 2em;
+}
+
+nav a {
+	text-transform: uppercase;
+	font-size: .9em;
+	/*padding: 2em;*/
+}
+
+
+a:link {
+	text-decoration: none;
+	color: #432f21;
+}
+
+a:hover {
+    color: #ca171b;
+}
+
+a:visited {
+	color: #432f21;
+}
+
+/*a:active {
+    color: yellow;
+}
+*/
+/*#hero_image {
+	width: 100%;
+	border: 2px dotted red;
+}*/
+/*don't need the above code - check similar code for header also to control logo image*/
+
+#hero_image img {
+	width: 100%;
+}
+
+h1 {
+	font-size: 1.5em;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 1em;
+}
+
+/*h3 {
+	text-align: center;
+}*/
+
+#categories {
+	/*border: 1px solid blue;*/
+	margin: auto;
+	width: 90%;
+}
+
+.catnav {
+	float: left;
+	width: 25%;
+	/*border: 3px green dotted;*/
+	margin-bottom: 3em;
+	/*padding: 3em 3em 3em 3em;*/
+	padding-top: 2em;
+	text-align: center;
+	/*height: 283px;*/
+}
+
+.catnav img {
+	display: block;
+	margin: auto;
+	/*width: 100%;*/
+	width: 180px;
+}
+
+h4 {
+	font-size: 1em;
+}
+
+#full_line_bg {
+	text-align: center;
+    background-color: #f2f2f3;
+    height: 5px;
+}
+
+#full_line_bg img {
+	margin-top: -2em;
+	width: 38%;
+	min-width: 246px;
+}
+
+#central_text {
+	text-align: center;
+	text-transform: uppercase;
+	margin: 5%;
+	font-size: 1.2em;
+}
+
+#pattern {
+	margin-top: -2%;
+	border-top: 3px solid #f2f2f3;
+	border-bottom: 3px solid #f2f2f3;
+	padding-top: .3em;
+}
+
+#pattern img {
+	width: 100%
+}
+/*Need to ask about setting image height for fluid layouts.*/
+
+/*#footer_nav {
+	text-transform: uppercase;
+	font-size: .9em;
+	padding: 2em;
+}*/
+
+footer {
+	text-align: center;
+	/*border: 1px blue solid;*/
+	background-color: #f2f2f3;
+	text-transform: uppercase;
+	padding: 2em 0;
+}
+
+footer img {
+	margin: 2em 1em;
+	width: 4%;
+	min-width: 35px;
+}
+
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
+
+.line {
+	width: 25px;
+	height: 3px;
+	background-color: black;
+	margin: 3px;
+}
+
+#search_icon {
+    	max-width: 1%;
+    	padding-top: 1em 3em;
+}
+
+#smallest_nav {
+	width: 100%;
+	/*background: yellow;*/
+	text-align: center;
+	/*margin: .1em auto;*/
+	font-family: 'Archivo Narrow', sans-serif;
+}
+
+#smallest_nav a {
+	text-transform: uppercase;
+	font-size: .8em;
+	/*border: 1px solid black;*/
+
+}
+
+
+#smallest_nav div {
+	/*background: green;*/
+	line-height: 1em;
+
+}
+
+
+#login_icon {
+	display: inline-block;
+	width: 20%;
+
+}
+
+#login_icon img {
+	width: 70%;
+	vertical-align: bottom;
+
+}
+
+#nav_search_icon {
+	display: inline-block;
+	width: 20%;
+
+
+}
+
+#nav_search_icon img {
+	width: 25%;
+	vertical-align: bottom;
+
+}
+
+#order_status {
+	display: inline-block;
+	width: 55%;
+	font-size: 1.2em;
+	text-decoration: underline;
+}
+
+
+@media only screen and (max-width: 1130px) {
+	#central_text {
+		font-size: 1em;
+		margin: 7%;
+	}
+  
+}
+
+
+@media only screen and (max-width: 930px) {
+	nav img {
+		margin: 0 1em;
+	}
+	.header_align img {
+		min-width: 19px;
+	}
+  
+}
+
+@media only screen and (max-width: 840px) {
+	.header_align {
+		font-size: .6em;
+	}
+	#categories {
+		width: 100%;
+	}
+	#categories img {
+		width: 100%;
+	}
+	#central_text {
+		font-size: 1em;
+    	margin: 4em .6em;
+	}
+  
+}
+
+
+
+@media only screen and (max-width: 740px) {
+	nav img {
+		display: none;
+	}
+	nav a {
+		padding: 0 .5em;
+		font-size: .8em;
+	}
+	nav {
+		margin: .4em 0;
+	}
+	#big_header {
+		display: none;
+	}
+  
+}
+
+@media only screen and (min-width: 740px) {
+	#small_header {
+		display: none;
+	}
+}
+
+
+@media only screen and (max-width: 660px) {
+	h1 {
+		font-size: 1em;
+	}
+	h4 {
+		font-size: .8em;
+	}
+  
+}
+
+@media only screen and (max-width: 610px) {
+	#logo_image {
+		margin: 1.5em auto 1em;
+	}
+	#central_text {
+		display: none;
+	}
+	#pattern {
+    	margin-top: 8%;
+	}
+  
+}
+
+@media only screen and (max-width: 520px) {
+	nav a {
+		padding: 0 .5em;
+		font-size: .6em;
+	}
+	input {
+    	margin: 0 auto;
+	}
+  
+}
+
+@media only screen and (max-width: 480px) {
+	#small_header {
+		display: none;
+	}
+	input {
+		display: none;
+	}
+	#cart_image {
+    	min-width: 24%;
+	}
+	#logo_image {
+    	min-width: 66%;
+	}
+	nav {
+		display: none;
+	}
+	
+	#smallest_nav a {
+		padding: 0 .5em;
+		font-size: .6em;
+	}
+	
+	#hero_image img {
+		width: 100%;
+	}
+	footer {
+		display: none;
+	}
+	h1 {
+		display: none;
+	}
+	#mobile_footer {
+		margin-top: 1em;
+		/*border: 1px solid black;*/
+		text-align: center;
+		text-transform: uppercase;
+	
+	}
+	#support img {
+		width: 15%;
+		
+	}
+	
+	#social_icons img {
+		width: 12%;
+		padding: .5em .5em;
+	}
+
+		
+}
+
+@media only screen and (min-width: 480px) {
+	#smallest_header {
+		display: none;
+	}
+	#smallest_nav {
+		display: none;
+	}
+	#mobile_footer {
+		display: none;
+	}
+
+}
